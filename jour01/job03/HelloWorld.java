@@ -1,12 +1,15 @@
 public class HelloWorld {
-    // 'public' means any object can access it.
+    /*
+    'public' means any object can access it.
 
-    // 'static' means that this method is associated with the class, and not
-    // a specific instance of that class
+    'static' means that this method is associated with the class, and not
+    a specific instance of that class
 
-    // 'void' means it returns nothing
+    'void' means it returns nothing
+    */
 
-    public static void main(String[] args) { // 'String[] args' -> CLI arguments
+    // 'String[] args' -> CLI argument
+    public static void main(String[] args) {
         System.out.println("Hello World");
     }
 }
