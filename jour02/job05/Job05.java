@@ -3,10 +3,10 @@ import java.util.Scanner;
 
 public class Job05 {
     public static void main(String[] arg) {
-        Scanner intParser = new Scanner(System.in);
+        Scanner inputScanner = new Scanner(System.in);
 
         System.out.println("Donnez votre age:");
-        int age = intParser.nextInt();
+        int age = inputScanner.nextInt();
 
         if (age < 16) {
             System.out.println("Vous ne pouvez pas travailler.");
