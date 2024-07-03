@@ -12,9 +12,13 @@ public class Job04 {
         } while (maxNumber <= 0);
 
         long startTime = System.currentTimeMillis();
-        for (int i = 1; i <= maxNumber; i++) {};
+        int i = 1;
+        for (i = i; i < maxNumber; i++) {};
         long endTime = System.currentTimeMillis();
 
-        System.out.printf("It took %d ms to run%n", endTime - startTime);
+        System.out.printf(
+            "It took %d ms to increment to %d%n",
+            endTime - startTime, i
+        );
     }
 }
